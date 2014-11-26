@@ -1,0 +1,493 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		26BD2915770BEF0C1B1C8240 /* libPods-NIPKeyValueStore-Swift.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DA4347FB64D3CD26345BCE61 /* libPods-NIPKeyValueStore-Swift.a */; };
+		4E1921C01A268A4E0060AAB4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E1921BF1A268A4E0060AAB4 /* AppDelegate.swift */; };
+		4E1921C21A268A4E0060AAB4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E1921C11A268A4E0060AAB4 /* ViewController.swift */; };
+		4E1921C51A268A4E0060AAB4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4E1921C31A268A4E0060AAB4 /* Main.storyboard */; };
+		4E1921C71A268A4E0060AAB4 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4E1921C61A268A4E0060AAB4 /* Images.xcassets */; };
+		4E1921CA1A268A4E0060AAB4 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4E1921C81A268A4E0060AAB4 /* LaunchScreen.xib */; };
+		4E1921D61A268A4E0060AAB4 /* NIPKeyValueStore_SwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E1921D51A268A4E0060AAB4 /* NIPKeyValueStore_SwiftTests.swift */; };
+		4E1921E01A268B060060AAB4 /* NIPKeyValueStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E1921DF1A268B060060AAB4 /* NIPKeyValueStore.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4E1921D01A268A4E0060AAB4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4E1921B21A268A4E0060AAB4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4E1921B91A268A4E0060AAB4;
+			remoteInfo = "NIPKeyValueStore-Swift";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		260AD457F3F79F11D9C09CED /* Pods-NIPKeyValueStore-Swift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NIPKeyValueStore-Swift.debug.xcconfig"; path = "Pods/Target Support Files/Pods-NIPKeyValueStore-Swift/Pods-NIPKeyValueStore-Swift.debug.xcconfig"; sourceTree = "<group>"; };
+		3F96AB6ADB3640DA3CE4AD7F /* Pods-NIPKeyValueStore-Swift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NIPKeyValueStore-Swift.release.xcconfig"; path = "Pods/Target Support Files/Pods-NIPKeyValueStore-Swift/Pods-NIPKeyValueStore-Swift.release.xcconfig"; sourceTree = "<group>"; };
+		4E1921BA1A268A4E0060AAB4 /* NIPKeyValueStore-Swift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "NIPKeyValueStore-Swift.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4E1921BE1A268A4E0060AAB4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4E1921BF1A268A4E0060AAB4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4E1921C11A268A4E0060AAB4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		4E1921C41A268A4E0060AAB4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4E1921C61A268A4E0060AAB4 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		4E1921C91A268A4E0060AAB4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		4E1921CF1A268A4E0060AAB4 /* NIPKeyValueStore-SwiftTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "NIPKeyValueStore-SwiftTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4E1921D41A268A4E0060AAB4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4E1921D51A268A4E0060AAB4 /* NIPKeyValueStore_SwiftTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NIPKeyValueStore_SwiftTests.swift; sourceTree = "<group>"; };
+		4E1921DF1A268B060060AAB4 /* NIPKeyValueStore.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NIPKeyValueStore.swift; sourceTree = "<group>"; };
+		4E1921E51A268DD30060AAB4 /* Bridging.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Bridging.h; sourceTree = "<group>"; };
+		DA4347FB64D3CD26345BCE61 /* libPods-NIPKeyValueStore-Swift.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-NIPKeyValueStore-Swift.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4E1921B71A268A4E0060AAB4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				26BD2915770BEF0C1B1C8240 /* libPods-NIPKeyValueStore-Swift.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4E1921CC1A268A4E0060AAB4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		02A256AC11EB0F69F71203A8 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				260AD457F3F79F11D9C09CED /* Pods-NIPKeyValueStore-Swift.debug.xcconfig */,
+				3F96AB6ADB3640DA3CE4AD7F /* Pods-NIPKeyValueStore-Swift.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		0FBD571887EAF5B591B801C0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DA4347FB64D3CD26345BCE61 /* libPods-NIPKeyValueStore-Swift.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4E1921B11A268A4E0060AAB4 = {
+			isa = PBXGroup;
+			children = (
+				4E1921BC1A268A4E0060AAB4 /* NIPKeyValueStore-Swift */,
+				4E1921D21A268A4E0060AAB4 /* NIPKeyValueStore-SwiftTests */,
+				4E1921BB1A268A4E0060AAB4 /* Products */,
+				02A256AC11EB0F69F71203A8 /* Pods */,
+				0FBD571887EAF5B591B801C0 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		4E1921BB1A268A4E0060AAB4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4E1921BA1A268A4E0060AAB4 /* NIPKeyValueStore-Swift.app */,
+				4E1921CF1A268A4E0060AAB4 /* NIPKeyValueStore-SwiftTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4E1921BC1A268A4E0060AAB4 /* NIPKeyValueStore-Swift */ = {
+			isa = PBXGroup;
+			children = (
+				4E1921BF1A268A4E0060AAB4 /* AppDelegate.swift */,
+				4E1921C11A268A4E0060AAB4 /* ViewController.swift */,
+				4E1921DF1A268B060060AAB4 /* NIPKeyValueStore.swift */,
+				4E1921C31A268A4E0060AAB4 /* Main.storyboard */,
+				4E1921C61A268A4E0060AAB4 /* Images.xcassets */,
+				4E1921C81A268A4E0060AAB4 /* LaunchScreen.xib */,
+				4E1921BD1A268A4E0060AAB4 /* Supporting Files */,
+				4E1921E51A268DD30060AAB4 /* Bridging.h */,
+			);
+			path = "NIPKeyValueStore-Swift";
+			sourceTree = "<group>";
+		};
+		4E1921BD1A268A4E0060AAB4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4E1921BE1A268A4E0060AAB4 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4E1921D21A268A4E0060AAB4 /* NIPKeyValueStore-SwiftTests */ = {
+			isa = PBXGroup;
+			children = (
+				4E1921D51A268A4E0060AAB4 /* NIPKeyValueStore_SwiftTests.swift */,
+				4E1921D31A268A4E0060AAB4 /* Supporting Files */,
+			);
+			path = "NIPKeyValueStore-SwiftTests";
+			sourceTree = "<group>";
+		};
+		4E1921D31A268A4E0060AAB4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4E1921D41A268A4E0060AAB4 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4E1921B91A268A4E0060AAB4 /* NIPKeyValueStore-Swift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4E1921D91A268A4E0060AAB4 /* Build configuration list for PBXNativeTarget "NIPKeyValueStore-Swift" */;
+			buildPhases = (
+				22C3833AA970D37FE262CF7B /* Check Pods Manifest.lock */,
+				4E1921B61A268A4E0060AAB4 /* Sources */,
+				4E1921B71A268A4E0060AAB4 /* Frameworks */,
+				4E1921B81A268A4E0060AAB4 /* Resources */,
+				15AAD67C23FA1ED5A33B12B4 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "NIPKeyValueStore-Swift";
+			productName = "NIPKeyValueStore-Swift";
+			productReference = 4E1921BA1A268A4E0060AAB4 /* NIPKeyValueStore-Swift.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4E1921CE1A268A4E0060AAB4 /* NIPKeyValueStore-SwiftTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4E1921DC1A268A4E0060AAB4 /* Build configuration list for PBXNativeTarget "NIPKeyValueStore-SwiftTests" */;
+			buildPhases = (
+				4E1921CB1A268A4E0060AAB4 /* Sources */,
+				4E1921CC1A268A4E0060AAB4 /* Frameworks */,
+				4E1921CD1A268A4E0060AAB4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4E1921D11A268A4E0060AAB4 /* PBXTargetDependency */,
+			);
+			name = "NIPKeyValueStore-SwiftTests";
+			productName = "NIPKeyValueStore-SwiftTests";
+			productReference = 4E1921CF1A268A4E0060AAB4 /* NIPKeyValueStore-SwiftTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4E1921B21A268A4E0060AAB4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "JUE DUKE";
+				TargetAttributes = {
+					4E1921B91A268A4E0060AAB4 = {
+						CreatedOnToolsVersion = 6.1;
+					};
+					4E1921CE1A268A4E0060AAB4 = {
+						CreatedOnToolsVersion = 6.1;
+						TestTargetID = 4E1921B91A268A4E0060AAB4;
+					};
+				};
+			};
+			buildConfigurationList = 4E1921B51A268A4E0060AAB4 /* Build configuration list for PBXProject "NIPKeyValueStore-Swift" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4E1921B11A268A4E0060AAB4;
+			productRefGroup = 4E1921BB1A268A4E0060AAB4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4E1921B91A268A4E0060AAB4 /* NIPKeyValueStore-Swift */,
+				4E1921CE1A268A4E0060AAB4 /* NIPKeyValueStore-SwiftTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4E1921B81A268A4E0060AAB4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4E1921C51A268A4E0060AAB4 /* Main.storyboard in Resources */,
+				4E1921CA1A268A4E0060AAB4 /* LaunchScreen.xib in Resources */,
+				4E1921C71A268A4E0060AAB4 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4E1921CD1A268A4E0060AAB4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		15AAD67C23FA1ED5A33B12B4 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-NIPKeyValueStore-Swift/Pods-NIPKeyValueStore-Swift-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		22C3833AA970D37FE262CF7B /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4E1921B61A268A4E0060AAB4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4E1921C21A268A4E0060AAB4 /* ViewController.swift in Sources */,
+				4E1921C01A268A4E0060AAB4 /* AppDelegate.swift in Sources */,
+				4E1921E01A268B060060AAB4 /* NIPKeyValueStore.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4E1921CB1A268A4E0060AAB4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4E1921D61A268A4E0060AAB4 /* NIPKeyValueStore_SwiftTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4E1921D11A268A4E0060AAB4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4E1921B91A268A4E0060AAB4 /* NIPKeyValueStore-Swift */;
+			targetProxy = 4E1921D01A268A4E0060AAB4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4E1921C31A268A4E0060AAB4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4E1921C41A268A4E0060AAB4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4E1921C81A268A4E0060AAB4 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4E1921C91A268A4E0060AAB4 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4E1921D71A268A4E0060AAB4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4E1921D81A268A4E0060AAB4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4E1921DA1A268A4E0060AAB4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 260AD457F3F79F11D9C09CED /* Pods-NIPKeyValueStore-Swift.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "NIPKeyValueStore-Swift/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "NIPKeyValueStore-Swift/Bridging.h";
+			};
+			name = Debug;
+		};
+		4E1921DB1A268A4E0060AAB4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3F96AB6ADB3640DA3CE4AD7F /* Pods-NIPKeyValueStore-Swift.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "NIPKeyValueStore-Swift/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "NIPKeyValueStore-Swift/Bridging.h";
+			};
+			name = Release;
+		};
+		4E1921DD1A268A4E0060AAB4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "NIPKeyValueStore-SwiftTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NIPKeyValueStore-Swift.app/NIPKeyValueStore-Swift";
+			};
+			name = Debug;
+		};
+		4E1921DE1A268A4E0060AAB4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "NIPKeyValueStore-SwiftTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NIPKeyValueStore-Swift.app/NIPKeyValueStore-Swift";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4E1921B51A268A4E0060AAB4 /* Build configuration list for PBXProject "NIPKeyValueStore-Swift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4E1921D71A268A4E0060AAB4 /* Debug */,
+				4E1921D81A268A4E0060AAB4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4E1921D91A268A4E0060AAB4 /* Build configuration list for PBXNativeTarget "NIPKeyValueStore-Swift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4E1921DA1A268A4E0060AAB4 /* Debug */,
+				4E1921DB1A268A4E0060AAB4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4E1921DC1A268A4E0060AAB4 /* Build configuration list for PBXNativeTarget "NIPKeyValueStore-SwiftTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4E1921DD1A268A4E0060AAB4 /* Debug */,
+				4E1921DE1A268A4E0060AAB4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4E1921B21A268A4E0060AAB4 /* Project object */;
+}
